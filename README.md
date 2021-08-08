@@ -32,6 +32,14 @@ You can install this app on your computer or mobile device.
 - Enter the name for the app then tap add. 
 
 ## Used tools:
+![prettier version](https://img.shields.io/badge/prettier-2.3.2-brightgreen)
+![nanoid version](https://img.shields.io/badge/nanoid-3.1.23-brightgreen)
+![styled-components version](https://img.shields.io/badge/styled--components-5.3.0-brightgreen) 
+![eslint version](https://img.shields.io/badge/eslint-7.30.0-brightgreen) 
+![commitlint version](https://img.shields.io/badge/commitlint-12.1.4-brightgreen) 
+![craco-alias version](https://img.shields.io/badge/craco--alias-3.0.1-brightgreen) 
+![husky version](https://img.shields.io/badge/husky-7.0.0-brightgreen)
+
 - [nanoid](https://github.com/ai/nanoid) A tiny, secure, URL-friendly, unique string ID generator for JavaScript.;
 - [styled-components](https://github.com/styled-components/styled-components);
 - [volta](https://volta.sh/) JavaScript tool manager;
@@ -65,4 +73,9 @@ $ yarn test
 For test badges generating:
 ```sh
 $ test:badges
+```
+
+For dependencies badges updating:
+```sh
+$ dep:badges
 ```
