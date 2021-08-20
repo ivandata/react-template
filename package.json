@@ -61,7 +61,9 @@
     "test:coverage": "craco test --coverage --watchAll=false",
     "test:badges": "yarn run test:coverage  && jest-coverage-badges",
     "dep:badges": "npx update-badge prettier nanoid styled-components eslint commitlint craco-alias husky",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pre-commit": "lint-staged",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -80,12 +82,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": "bash -c tsc",
