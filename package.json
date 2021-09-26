@@ -37,7 +37,7 @@
     "@types/react-router-dom": "^5.1.8",
     "@types/styled-components": "^5.1.11",
     "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
+    "@typescript-eslint/parser": "^4.31.2",
     "autoprefixer": "^9",
     "commitlint": "^12.1.4",
     "craco-alias": "^3.0.1",
