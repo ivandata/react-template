@@ -45,7 +45,7 @@
     "eslint": "^7.30.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-sonarjs": "^0.10.0",
+    "eslint-plugin-sonarjs": "^0.11.0",
     "husky": "^7.0.0",
     "jest-coverage-badges": "^1.1.2",
     "jest-matchmedia-mock": "^1.1.0",
