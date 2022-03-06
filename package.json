@@ -25,9 +25,9 @@
     "workbox-google-analytics": "^6.4.2",
     "workbox-navigation-preload": "^6.4.2",
     "workbox-precaching": "^6.4.2",
-    "workbox-range-requests": "^6.3.0",
+    "workbox-range-requests": "^6.5.0",
     "workbox-routing": "^6.4.2",
-    "workbox-strategies": "^6.3.0",
+    "workbox-strategies": "^6.5.0",
     "workbox-streams": "^6.4.2"
   },
   "devDependencies": {
@@ -44,7 +44,7 @@
     "dependency-version-badge": "^1.10.0",
     "eslint": "^7.30.0",
     "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-sonarjs": "^0.11.0",
     "husky": "^7.0.0",
     "jest-coverage-badges": "^1.1.2",
