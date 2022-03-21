@@ -2286,19 +2286,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@>=16.9.0":
-  version "17.0.16"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.16.tgz#056f40c45645761527baeb7d89d842a6abdf285a"
-  integrity sha512-3kCUiOOlQTwUUvjNFkbBTWMTxdTGybz/PfjCw9JmaRGcEDBQh+nGMg7/E9P2rklhJuYVd25IYLNcvqgSPCPksg==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^16.9.53":
-  version "16.14.12"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.12.tgz#1e38e2114e568f6541f88628a207f72630ee161f"
-  integrity sha512-7nOJgNsRbARhZhvwPm7cnzahtzEi5VJ9OvcQk8ExEEb1t+zaFklwLVkJz7G1kfxX4X/mDa/icTmzE0vTmqsqBg==
+"@types/react@*", "@types/react@>=16.9.0", "@types/react@^17.0.41":
+  version "17.0.41"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.41.tgz#6e179590d276394de1e357b3f89d05d7d3da8b85"
+  integrity sha512-chYZ9ogWUodyC7VUTRBfblysKLjnohhFY9bGLwvnUFFy48+vB9DikmB3lW0qTFmBcKSzmdglcvkHK71IioOlDA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -12893,11 +12884,6 @@ workbox-cacheable-response@^6.4.2:
   integrity sha512-9FE1W/cKffk1AJzImxgEN0ceWpyz1tqNjZVtA3/LAvYL3AC5SbIkhc7ZCO82WmO9IjTfu8Vut2X/C7ViMSF7TA==
   dependencies:
     workbox-core "6.4.2"
-
-workbox-core@6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.3.0.tgz#a7d82bae6f623f342e04028a0a2cef39af71af55"
-  integrity sha512-SufToEV3SOLwwz3j+P4pgkfpzLRUlR17sX3p/LrMHP/brYKvJQqjTwtSvaCkkAX0RPHX2TFHmN8xhPP1bpmomg==
 
 workbox-core@6.4.2:
   version "6.4.2"
