@@ -21,7 +21,7 @@
     "workbox-broadcast-update": "^6.4.2",
     "workbox-cacheable-response": "^6.4.2",
     "workbox-core": "^6.4.2",
-    "workbox-expiration": "^6.4.2",
+    "workbox-expiration": "^6.5.2",
     "workbox-google-analytics": "^6.4.2",
     "workbox-navigation-preload": "^6.4.2",
     "workbox-precaching": "^6.4.2",
@@ -43,7 +43,7 @@
     "craco-alias": "^3.0.1",
     "dependency-version-badge": "^1.10.0",
     "eslint": "^7.30.0",
-    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-sonarjs": "^0.11.0",
     "husky": "^7.0.0",
@@ -51,7 +51,7 @@
     "jest-matchmedia-mock": "^1.1.0",
     "jest-styled-components": "^7.0.8",
     "lint-staged": "^11.2.6",
-    "prettier": "2.3.2",
+    "prettier": "2.6.1",
     "styled-components": "^5.3.3"
   },
   "scripts": {
