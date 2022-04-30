@@ -31,7 +31,7 @@
     "workbox-streams": "^6.4.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.2.0",
+    "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^12.1.4",
     "@testing-library/react-hooks": "^7.0.2",
     "@types/react-router-dom": "^5.3.3",
