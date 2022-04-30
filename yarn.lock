@@ -2155,10 +2155,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/history@*":
-  version "4.7.9"
-  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.9.tgz#1cfb6d60ef3822c589f18e70f8b12f9a28ce8724"
-  integrity sha512-MUc6zSmU3tEVnkQ78q0peeEjKWPUADMlC/t++2bI8WnAG2tvYRPIgHG8lWkXwqc8MsUF6Z2MOf+Mh5sazOmhiQ==
+"@types/history@*", "@types/history@^4.7.11":
+  version "4.7.11"
+  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.11.tgz#56588b17ae8f50c53983a524fc3cc47437969d64"
+  integrity sha512-qjDJRrmvBMiTx+jyLxvLfJU7UznFuokDv4f3WRuriHKERccVpFU+8XMQUAbDzoiJCsmexxRExQeMwwCdamSKDA==
 
 "@types/hoist-non-react-statics@*":
   version "3.3.1"
@@ -2262,12 +2262,12 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-router-dom@^5.3.1":
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.3.1.tgz#76700ccce6529413ec723024b71f01fc77a4a980"
-  integrity sha512-UvyRy73318QI83haXlaMwmklHHzV9hjl3u71MmM6wYNu0hOVk9NLTa0vGukf8zXUqnwz4O06ig876YSPpeK28A==
+"@types/react-router-dom@^5.3.3":
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.3.3.tgz#e9d6b4a66fcdbd651a5f106c2656a30088cc1e83"
+  integrity sha512-kpqnYK4wcdm5UaWI3fLcELopqLrHgLqNsdpHauzlQktfkHL3npOSwtj1Uz9oKBAzs7lFtVkV8j83voAz2D8fhw==
   dependencies:
-    "@types/history" "*"
+    "@types/history" "^4.7.11"
     "@types/react" "*"
     "@types/react-router" "*"
 
@@ -12816,7 +12816,7 @@ word-wrap@^1.2.3, word-wrap@~1.2.3:
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-workbox-background-sync@6.4.2, workbox-background-sync@^6.4.2:
+workbox-background-sync@6.4.2:
   version "6.4.2"
   resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.4.2.tgz#bb31b95928d376abcb9bde0de3a0cef9bae46cf7"
   integrity sha512-P7c8uG5X2k+DMICH9xeSA9eUlCOjHHYoB42Rq+RtUpuwBxUOflAXR1zdsMWj81LopE4gjKXlTw7BFd1BDAHo7g==
@@ -12830,6 +12830,14 @@ workbox-background-sync@^5.1.4:
   integrity sha512-AH6x5pYq4vwQvfRDWH+vfOePfPIYQ00nCEB7dJRU1e0n9+9HMRyvI63FlDvtFT2AvXVRsXvUt7DNMEToyJLpSA==
   dependencies:
     workbox-core "^5.1.4"
+
+workbox-background-sync@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.5.3.tgz#7c66c1836aeca6f3762dc48d17a1852a33b3168c"
+  integrity sha512-0DD/V05FAcek6tWv9XYj2w5T/plxhDSpclIcAGjA/b7t/6PdaRkQ7ZgtAX6Q/L7kV7wZ8uYRJUoH11VjNipMZw==
+  dependencies:
+    idb "^6.1.4"
+    workbox-core "6.5.3"
 
 workbox-broadcast-update@^5.1.4:
   version "5.1.4"
