@@ -31,7 +31,7 @@
     "workbox-streams": "^6.4.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.2.0",
+    "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^12.1.4",
     "@testing-library/react-hooks": "^7.0.2",
     "@types/react-router-dom": "^5.3.3",
@@ -41,9 +41,9 @@
     "autoprefixer": "^9",
     "commitlint": "^12.1.4",
     "craco-alias": "^3.0.1",
-    "dependency-version-badge": "^1.10.0",
+    "dependency-version-badge": "^1.11.0",
     "eslint": "^7.30.0",
-    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.4.0",
     "eslint-plugin-sonarjs": "^0.13.0",
     "husky": "^7.0.0",
