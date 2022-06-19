@@ -24,7 +24,7 @@
     "workbox-expiration": "^6.5.3",
     "workbox-google-analytics": "^6.4.2",
     "workbox-navigation-preload": "^6.4.2",
-    "workbox-precaching": "^6.4.2",
+    "workbox-precaching": "^6.5.3",
     "workbox-range-requests": "^6.5.0",
     "workbox-routing": "^6.4.2",
     "workbox-strategies": "^6.5.0",
@@ -50,7 +50,7 @@
     "jest-coverage-badges": "^1.1.2",
     "jest-matchmedia-mock": "^1.1.0",
     "jest-styled-components": "^7.0.8",
-    "lint-staged": "^11.2.6",
+    "lint-staged": "^13.0.2",
     "prettier": "2.6.1",
     "styled-components": "^5.3.3"
   },
