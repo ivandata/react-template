@@ -8,7 +8,7 @@
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^27.4.1",
-    "@types/node": "^16.11.11",
+    "@types/node": "^18.0.1",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^17.0.11",
     "nanoid": "^3.3.1",
@@ -18,17 +18,17 @@
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4",
     "workbox-background-sync": "^6.5.3",
-    "workbox-broadcast-update": "^6.4.2",
-    "workbox-cacheable-response": "^6.4.2",
-    "workbox-core": "^6.4.2",
+    "workbox-broadcast-update": "^6.5.3",
+    "workbox-cacheable-response": "^6.5.3",
+    "workbox-core": "^6.5.3",
     "workbox-expiration": "^6.5.3",
-    "workbox-google-analytics": "^6.4.2",
+    "workbox-google-analytics": "^6.5.3",
     "workbox-navigation-preload": "^6.5.3",
     "workbox-precaching": "^6.5.3",
-    "workbox-range-requests": "^6.5.0",
-    "workbox-routing": "^6.4.2",
-    "workbox-strategies": "^6.5.0",
-    "workbox-streams": "^6.4.2"
+    "workbox-range-requests": "^6.5.3",
+    "workbox-routing": "^6.5.3",
+    "workbox-strategies": "^6.5.3",
+    "workbox-streams": "^6.5.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
@@ -62,7 +62,8 @@
     "test:badges": "yarn run test:coverage  && jest-coverage-badges",
     "dep:badges": "npx update-badge prettier nanoid styled-components eslint commitlint craco-alias husky",
     "eject": "react-scripts eject",
-    "pre-commit": "lint-staged",
+    "lint:run": "lint-staged",
+    "pre-commit": "yarn run lint:run",
     "prepare": "husky install"
   },
   "eslintConfig": {
@@ -93,8 +94,8 @@
     "**/*.{test,spec,stories,example}.{js,jsx,ts,tsx}"
   ],
   "volta": {
-    "node": "14.16.1",
-    "npm": "7.13.0",
+    "node": "16.15.1",
+    "npm": "8.13.2",
     "yarn": "1.22.10"
   },
   "jest": {
