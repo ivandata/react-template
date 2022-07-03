@@ -9,6 +9,7 @@ Additional line of information text about what the project does.
 :white_check_mark: PWA support; \
 :white_check_mark: The off-line mode; \
 :white_check_mark: Responsive and developed in a mobile-first approach; \
+:white_check_mark: GitHub CI workflow; \
 :white_check_mark: Tested on a decent coverage level using jest;
 
 ## Installing <project_name> as PWA
@@ -32,9 +33,9 @@ You can install this app on your computer or mobile device.
 - Enter the name for the app then tap add. 
 
 ## Used tools:
-![prettier version](https://img.shields.io/badge/prettier-2.3.2-brightgreen)
-![nanoid version](https://img.shields.io/badge/nanoid-3.1.23-brightgreen)
-![styled-components version](https://img.shields.io/badge/styled--components-5.3.0-brightgreen) 
+![prettier version](https://img.shields.io/badge/prettier-2.6.1-brightgreen)
+![nanoid version](https://img.shields.io/badge/nanoid-3.3.1-brightgreen)
+![styled-components version](https://img.shields.io/badge/styled--components-5.3.5-brightgreen) 
 ![eslint version](https://img.shields.io/badge/eslint-7.30.0-brightgreen) 
 ![commitlint version](https://img.shields.io/badge/commitlint-12.1.4-brightgreen) 
 ![craco-alias version](https://img.shields.io/badge/craco--alias-3.0.1-brightgreen) 
