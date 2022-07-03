@@ -1,0 +1,58 @@
+name: CI
+
+on:
+  pull_request_target:
+    branches:
+      - master
+      - develop
+  push:
+    branches:
+      - master
+      - develop
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Set node version 🏗
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - name: Install dependencies
+        run: yarn install
+      - name: Set env to staging
+        if: endsWith(github.ref, '/develop')
+        run: echo "ENV=development" >> $GITHUB_ENV
+      - name: Set env to production
+        if: endsWith(github.ref, '/master')
+        run: echo "ENV=production" >> $GITHUB_ENV
+      - name: Run lint
+        run: yarn run lint:run
+
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Set node version
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - name: Install dependencies ⬇️
+        run: yarn install
+      - name: Set env to staging
+        if: endsWith(github.ref, '/develop')
+        run: echo "ENV=staging" >> $GITHUB_ENV
+      - name: Set env to production
+        if: endsWith(github.ref, '/master')
+        run: echo "ENV=production" >> $GITHUB_ENV
+      - name: Run unit tests
+        run: yarn run test

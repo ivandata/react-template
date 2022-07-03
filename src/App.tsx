@@ -26,7 +26,7 @@ const App: React.FunctionComponent = () => {
         <SPageContent>
           <section>
             <header>
-              <h1>React typescript progressive web application template</h1>
+              <h1>React template</h1>
             </header>
           </section>
         </SPageContent>
