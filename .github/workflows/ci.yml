@@ -18,11 +18,13 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-      - name: Set node version 🏗
+      - name: Set node version
         uses: actions/setup-node@v3
+        env:
+          FORCE_COLOR: 0
         with:
           node-version-file: .nvmrc
-          cache: npm
+          cache: yarn
       - name: Install dependencies
         run: yarn install
       - name: Set env to staging
@@ -43,10 +45,12 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
       - name: Set node version
         uses: actions/setup-node@v3
+        env:
+          FORCE_COLOR: 0
         with:
           node-version-file: .nvmrc
-          cache: npm
-      - name: Install dependencies ⬇️
+          cache: yarn
+      - name: Install dependencies
         run: yarn install
       - name: Set env to staging
         if: endsWith(github.ref, '/develop')
